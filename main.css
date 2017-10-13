@@ -1,28 +1,43 @@
 html {
 	font-family: 'Open Sans', sans-serif;
+	background-color: #f6f6f6;
 }
 
 body {
+	color: #f6f6f6;
 	width: 90%;
 	margin: auto;
 	padding-bottom: 1em;
 	padding-top: 1em;
+	background-color: #f6f6f6;
 }
 
 .h1 {
 	padding: 100px;
+	display: inline-flex;
+	background-color: #f6f6f6;
+}
+
+.p{
+	display: inline-flex;;
+	background-color: #f6f6f6;
 }
 
 .numbers-bar {
-	display: flex;
-	flex-direction: row;
+	padding-left:60px;
+	padding-right:60px;
+	background-color: #f6f6f6
+
 }
 
 .number {
-	width: auto;
+	width: 100px;
 	padding: 20px;
 	border: 2px solid black;
 	margin: 10px;
+	text-align: center;
+	display: inline-table;
+	background-color: #f6f6f6;
 }
 
 .input {
