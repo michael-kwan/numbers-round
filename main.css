@@ -31,10 +31,9 @@ input[type="button"]:hover {
 span {
   margin:5px;
   padding: 6px;
-  width:30px;
-  height:30px;
   display:inline-block;
   border-radius:3px;
+  text-align: center;
 } 
    
 span.small {
@@ -51,8 +50,6 @@ span.target {
   background:#C78257;
   color:#fff;  
   font-size:1.5em;
-  width:50px;
-  height:50px;
 }
 
 .timer {

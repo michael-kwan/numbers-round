@@ -9,7 +9,10 @@
 	<link rel="stylesheet" type="text/css" href="main.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+	<script src="script.js"></script>
 </head>
 <body>
 <h1>Numbers!</h1>
@@ -24,7 +27,9 @@ Here is how the game works:
 		<li> A target can be made from using the four basic aritmetic operations. </li>
 		<li> Numbers don't have to be used, but they may only be used once. </li>
 		<li> Large numbers are chosen at random from the set {25, 50, 75, 100} and the user can choose between 0 and 4 unique numbers. </li>
-		<li> Small numbers are chosen at random from the numbers from 1-20, each of which can be chosen twice. </li>
+		<li> Small numbers are chosen at random from the numbers from 1-10, each of which can be chosen twice. </li>
+		<li> Fractions or negative numbers may not be used at any intermediate step </li>
+		<li> Try to get as close to the target as possible. </li>
 	</ul>
 </div>
 
@@ -36,11 +41,12 @@ Here is how the game works:
 <button type="button" class="btn btn-success" id="reset">Reset Game</button>
 <br>
 <br>
-<div class="numbers"> Numbers To Use:
-</div>
+<div class="numbers"> Numbers To Use:</div>
+<div class="target"> Your target is: </div>
+<div class="timer"></div>
 
 </body>
-<script src="script.js"></script>
+
 
 
 </html>
