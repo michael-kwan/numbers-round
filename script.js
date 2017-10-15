@@ -31,7 +31,7 @@ $(document).ready(function(){
 		var pick = big[Math.floor(Math.random()*big.length)];
 		big.splice(big.indexOf(pick),1)
 		
-		$('.numbers').append('<span class="big">' + pick + '</div>') //add number to the numbers div
+		$('.numbers').append('<span class="bignum">' + pick + '</div>') //add number to the numbers div
 		console.log(clicks)
 	});
 
@@ -45,7 +45,7 @@ $(document).ready(function(){
 		var pick = small[Math.floor(Math.random()*small.length)];
 		small.splice(small.indexOf(pick),1)
 		
-		$('.numbers').append('<span class="big">' + pick + '</spam>') //add number to the numbers div
+		$('.numbers').append('<span class="smallnum">' + pick + '</spam>') //add number to the numbers div
 		console.log(clicks)
 	});
 
@@ -64,5 +64,6 @@ $(document).ready(function(){
 	$('#reset').click(function(){
 		window.location.href=window.location.href;
     }); 
-
 });
+
+function eva() {document.form.answer.value = math.format(math.eval(document.form.answer.value),10);}

@@ -9,7 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="main.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-	
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/mathjs/1.6.0/math.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script type="text/javascript" src="http://www.google.com/jsapi"></script>
 	<script src="script.js"></script>
@@ -44,7 +44,8 @@ Here is how the game works:
 <div class="numbers"> Numbers To Use:</div>
 <div class="target"> Your target is: </div>
 <div class="timer"></div>
-
+<input type="text" pattern="([-+]?\.?[\(\)\/\+\-\*])+([-+]?\.?)" class="form-control" name="answer">
+<button type="button" clsss="btn btn-primary" onclick="eva()">Evaluate</button>
 </body>
 
 
