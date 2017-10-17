@@ -7,7 +7,7 @@ var clicks = 0;
 var bigclicks = 0;
 var smallclicks = 0;
 var targets = 0;
-//creating counters
+//creating click counters
 
 var time = 60;
 
@@ -36,9 +36,7 @@ var thiscalc=0;		// a trial calculation
 var done=0;			// 0=not done, 1=done already
 var domore=0;			// 0=go on looking, 1=calculate, 2=stop
 
-function compcalc(x)   
-	{return ((42 - ((6-x)*(7-x))) / 2);
-	}
+function compcalc(x){return ((42 - ((6-x)*(7-x))) / 2);}
 
 function calculate(nums) 
 	{
@@ -215,8 +213,6 @@ $(document).ready(function(){
 		var target = parseInt(Math.random()*900 + 100);
 		$('.target').append('<span class="target">'+ target + '</span>')
 		var clock = setInterval(timer,1000)
-
-
 	});
 
 	$('#reset').click(function(){
@@ -224,7 +220,6 @@ $(document).ready(function(){
     }); 
 
     $('#get-answer').click(function () {
-    	console.log(calculate(nums));
     	$("#answer").val((calculate(nums)));
     });
 });
