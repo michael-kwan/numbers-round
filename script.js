@@ -157,7 +157,7 @@ function calculate(nums)
 				}	  	 
 			}
 		}
-		return (newform);
+		return (newform + " = " + bestsofar);
 	}
 
 $(document).ready(function(){
