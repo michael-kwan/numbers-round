@@ -23,7 +23,7 @@ for (i=0; i<6;  i++) 		// set arrays to zero
 sorted=new Array(21);		// the numbers available used at various levels
 formula=new Array(21);		// how these numbers were create
 possib=new Array(21);		// possible choices for tools
-for (j=0; j<21;  j++) 		// set arrays to zero
+for (j=0; j<21;  j++) 		// set arrays to zero;
 	{sorted[j]=0; formula[j]=""; possib[i]=0;
 	} 
 symbol=new Array(4);		// the four functions		
