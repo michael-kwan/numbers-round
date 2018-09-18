@@ -11,4 +11,3 @@ Here is how the game works:
   * Fractions or negative numbers may not be used at any intermediate step
   * Try to get as close to the target as possible.
   
-This project is the first of many of michael's projects, stemming from his 2015 stupid project Calculator. Hopefully michael understands the basics behind jQuery and CSS and will use it better/more frequently in the future.
